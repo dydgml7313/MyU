@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "435240782970",
+    "firebase_url": "https://project-m-ae960-default-rtdb.firebaseio.com",
+    "project_id": "project-m-ae960",
+    "storage_bucket": "project-m-ae960.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435240782970:android:d6b2502877c362c96bffc3",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEbf6ZFfXinpwz_CWHs3wvsGbrLNPeke0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435240782970:android:7b14c3af81cdd8fa6bffc3",
+        "android_client_info": {
+          "package_name": "com.moteasolo.MyU"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEbf6ZFfXinpwz_CWHs3wvsGbrLNPeke0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

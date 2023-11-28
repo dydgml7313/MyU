@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyU</string>
+    <string name="enter_user_name">이름</string>
+    <string name="enter_password">비밀번호</string>
+    <string name="register">Sign Up</string>
+    <string name="register_here">계정이 없으신가요?</string>
+    <string name="already_a_user_login_here">로그인</string>
+    <string name="confirm_password">비밀번호 확인</string>
+    <string name="enter_email">이메일</string>
+    <string name="login">Login</string>
+    <string name="enter_course_name">Enter Course Name</string>
+</resources>
