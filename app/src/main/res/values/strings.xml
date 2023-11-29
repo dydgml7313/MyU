@@ -9,4 +9,11 @@
     <string name="enter_email">이메일</string>
     <string name="login">Login</string>
     <string name="enter_course_name">Enter Course Name</string>
+    <string name="enter_text_to_chat">채팅</string>
+    <string name="send">전송</string>
+    <string name="join_group">Join Group</string>
+    <string name="add_group">Add Group</string>
+    <string name="enter_group_name">Enter group name</string>
+    <string name="submit">submit</string>
+
 </resources>

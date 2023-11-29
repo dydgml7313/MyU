@@ -1,19 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:orientation="vertical">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/nameTextView"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/View_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email: "/>
+
+        <TextView
+            android:id="@+id/View_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name: "/>
+
+        <TextView
+            android:id="@+id/View_MyUID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MyUID: "/>
+
+        <EditText
+            android:id="@+id/input_MyUID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="상대방의 MyUID 입력해주세요"/>
+
+        <Button
+            android:id="@+id/join"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="조인" />
+
+    </LinearLayout>
+
+    <!--Redular Fab-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabChat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Name: "
-        android:textSize="18sp"
-        android:layout_centerInParent="true"/>
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_speech_bubble"
+        app:rippleColor="@color/white"
+        app:backgroundTint="@color/Logo"
+        app:tint="@color/white"/>
 
-</LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -8,11 +8,12 @@
     <style name="Theme.MyU" parent="Base.Theme.MyU" />
 
     <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
-        <item name="boxStrokeColor">#296D98</item>
-        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeColor">#ECA4A4</item>
+        <item name="boxStrokeWidth">2dp</item>
     </style>
 
     <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
         <item name="android:background">@drawable/round_drawable</item>
     </style>
+
 </resources>
